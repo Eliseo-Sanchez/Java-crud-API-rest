@@ -27,7 +27,7 @@ Este es un pequeño proyecto que permite realizar operaciones CRUD (Crear, Leer,
     
     Ajusta las configuraciones de la base de datos en el archivo `.env` con tus credenciales.
     
-   `spring_datasource_url=jdbc:postgresql://localhost:5432/tu_base_de_datos
+    `spring_datasource_url=jdbc:postgresql://localhost:5432/tu_base_de_datos
     spring_datasource_username=tu_usuario
     spring_datasource_password=tu_contraseña
     spring_datasource_db=nombre_bd` 
