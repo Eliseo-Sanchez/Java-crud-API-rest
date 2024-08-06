@@ -12,7 +12,7 @@ Este es un pequeño proyecto que permite realizar operaciones CRUD (Crear, Leer,
 
 ## Requisitos
 
--   **Java**: Necesitas tener Java 8 o superior instalado.
+-   **Java**: Java 8 o superior.
 -   **Maven**: Para manejar las dependencias del proyecto.
 
 ## Cómo Empezar
@@ -21,19 +21,13 @@ Este es un pequeño proyecto que permite realizar operaciones CRUD (Crear, Leer,
     
     bash
     
-    Copiar código
-    
     `git clone https://github.com/Eliseo-Sanchez/Java-crud-API-rest` 
     
 2.  **Configurar la base de datos**
     
     Ajusta las configuraciones de la base de datos en el archivo `.env` con tus credenciales.
     
-    properties
-    
-    Copiar código
-    
-    `spring_datasource_url=jdbc:postgresql://localhost:5432/tu_base_de_datos
+   `spring_datasource_url=jdbc:postgresql://localhost:5432/tu_base_de_datos
     spring_datasource_username=tu_usuario
     spring_datasource_password=tu_contraseña
     spring_datasource_db=nombre_bd` 
@@ -41,8 +35,6 @@ Este es un pequeño proyecto que permite realizar operaciones CRUD (Crear, Leer,
 3.  **Iniciar la aplicación**
     
     bash
-    
-    Copiar código
     
     `mvn clean install
     mvn spring-boot:run` 
@@ -71,6 +63,6 @@ Puedes usar herramientas como Postman para probar estas rutas.
 
 ## Autor
 
--   **[Cristian Sanchez]** - eliseo.rivera044@gmail.com
+-   **Cristian Sanchez** - eliseo.rivera044@gmail.com
 
 ----------
